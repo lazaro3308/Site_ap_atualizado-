@@ -1,0 +1,114 @@
+/* ======= ESTILO GLOBAL ======= */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: hwb(0 98% 1%);
+  color: hsl(0, 0%, 10%);
+  transition: background-color 0.3s, color 0.3s;
+}
+h1 {
+  color: hwb(0 96% 3%);
+  font-weight: bold;
+  margin-bottom: 20px;  
+  text-align: center;
+}
+h2, h3, h4, h5, h6 {
+  color: hsl(0, 0%, 20%);
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.lead {
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 98%);
+}
+/* ======= NAVBAR ======= */
+.navbar-brand  {
+  font-weight: bold;
+  color: #2c3e50 !important;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: auto;
+  border-radius: 5px;
+
+}
+
+.navbar-nav .nav-link {
+  color: #2c3e50 !important;
+  transition: 0.3s;
+  font-weight: 600;
+  margin-right: 15px;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 5px 10px;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd !important;
+  background-color: rgba(13, 110, 253, 0.1);
+  box-shadow: 0 4px 8px rgba(13, 110, 253, 0.2);
+  transform: translateY(-2px);            
+  transition: all 0.3s ease;    
+}
+
+/* ======= BANNER ======= */
+.banner {
+  height: 70vh;
+  background: url('https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1600"') center/cover no-repeat;
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.banner div {
+  position: relative;
+  z-index: 1;
+}
+
+/* ======= CARDS DE APARTAMENTOS ======= */
+.card img {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem; 
+  transition: transform 0.3s;  
+}
+
+/* ======= FOOTER ======= */
+footer {
+  font-size: 14px;
+}
+
+/* ======= BOTÃO WHATSAPP ======= */
+.btn-success {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* ======= BOTÃO DE MUDAR O TEMA ======= */
+.theme-toggle {
+  position: fixed;
+  top: 80px; /* Ajuste a posição conforme necessário */
+  right: 20px; /* Ajuste a posição conforme necessário */
+  z-index: 1000;
+}
+#themeButton {
+  background-color: hsl(0, 0%, 0%);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+#themeButton:hover {
+  background-color: hsl(0, 0%, 0%);
+}

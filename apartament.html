@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apartamentos à Venda</title>
+
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS EXTERNO -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Botão de tema -->
+  <button id="toggle-theme" class="btn btn-outline-secondary" aria-label="Alternar modo de cor">🌙</button>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="Index.html">🏠 Meu Apê</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="Index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link active" href="apartament.html">Apartamentos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SEÇÃO DE APARTAMENTOS -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Apartamentos Disponíveis</h2>
+
+      <div class="row g-4">
+
+        <!-- CARD 1 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Apartamento 1"> <!-- FOTO -->
+            <div class="card-body">
+              <h5 class="card-title">Apartamento Luxo - Centro</h5>
+              <p class="card-text">3 quartos, 2 banheiros, varanda gourmet e garagem dupla.</p>
+              <p class="text-success fw-bold">R$ 850.000</p> <!-- PREÇO -->
+              <a href="https://wa.me/5538991718691" class="btn btn-success w-100">Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Apartamento 2">
+            <div class="card-body">
+              <h5 class="card-title">Apartamento Familiar - Savassi</h5>
+              <p class="card-text">2 quartos, suíte, cozinha americana e área de lazer completa.</p>
+              <p class="text-success fw-bold">R$ 620.000</p>
+              <a href="https://wa.me/5538991718691" class="btn btn-success w-100">Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Apartamento 3">
+            <div class="card-body">
+              <h5 class="card-title">Studio Moderno - Lourdes</h5>
+              <p class="card-text">Compacto e sofisticado, ideal para solteiros e jovens casais.</p>
+              <p class="text-success fw-bold">R$ 410.000</p>
+              <a href="https://wa.me/5538991718691" class="btn btn-success w-100">Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Apartamento 4">
+            <div class="card-body">
+              <h5 class="card-title">Cobertura Panorâmica</h5>
+              <p class="card-text">Vista incrível da cidade, piscina privativa e 200m² de luxo.</p>
+              <p class="text-success fw-bold">R$ 1.200.000</p>
+              <a href="https://wa.me/5538991718691" class="btn btn-success w-100">Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Apartamento 5">
+            <div class="card-body">
+              <h5 class="card-title">Apartamento Econômico - Barreiro</h5>
+              <p class="card-text">2 quartos, bem localizado, próximo a comércio e transporte.</p>
+              <p class="text-success fw-bold">R$ 320.000</p>
+              <a href="https://wa.me/5538991718691" class="btn btn-success w-100">Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Apartamento 6">
+            <div class="card-body">
+              <h5 class="card-title">Apartamento Premium - Belvedere</h5>
+              <p class="card-text">4 quartos, 3 suítes, sala ampla e acabamento de alto padrão.</p>
+              <p class="text-success fw-bold">R$ 1.500.000</p>
+              <a href="https://wa.me/5538991718691" class="btn btn-success w-100">Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://images.pexels.com/photos/36362/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Apartamento 7">
+            <div class="card-body">
+              <h5 class="card-title">Apartamento Compacto - Centro Sul</h5>
+              <p class="card-text">Ideal para quem quer conforto e praticidade no dia a dia.</p>
+              <p class="text-success fw-bold">R$ 370.000</p>
+              <a href="https://wa.me/5538991718691" class="btn btn-success w-100">Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 8 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Apartamento 8">
+            <div class="card-body">
+              <h5 class="card-title">Apartamento Novo - Pampulha</h5>
+              <p class="card-text">Recém-construído, área de lazer e vagas de garagem cobertas.</p>
+              <p class="text-success fw-bold">R$ 540.000</p>
+              <a href="https://wa.me/5538991718691" class="btn btn-success w-100">Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 9 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Apartamento 9">
+            <div class="card-body">
+              <h5 class="card-title">Apartamento Decorado - Buritis</h5>
+              <p class="card-text">Pronto para morar, totalmente mobiliado e climatizado.</p>
+              <p class="text-success fw-bold">R$ 690.000</p>
+              <a href="https://wa.me/5538991718691" class="btn btn-success w-100">Falar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-4 bg-dark text-light mt-5">
+    <p class="mb-0">© 2025 ImóveisTop | Todos os direitos reservados</p>
+  </footer>
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!-- JS do tema -->
+  <script>
+    const btn = document.getElementById("toggle-theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    if (prefersDark) {
+      document.body.classList.add("dark-mode");
+      btn.textContent = '☀️';
+    }
+
+    btn.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+      btn.textContent = document.body.classList.contains("dark-mode") ? '☀️' : '🌙';
+    });
+  </script>
+</body>
+</html>
